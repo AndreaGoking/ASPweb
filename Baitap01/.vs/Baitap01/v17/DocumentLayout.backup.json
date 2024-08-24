@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LTwebASP\\ASPweb\\Baitap01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F64A9EC-1E6F-4809-A096-098654A370D8}|Baitap01\\Baitap01.csproj|d:\\ltwebasp\\aspweb\\baitap01\\baitap01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F64A9EC-1E6F-4809-A096-098654A370D8}|Baitap01\\Baitap01.csproj|solutionrelative:baitap01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\Baitap01\\Baitap01\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Baitap01\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\LTwebASP\\ASPweb\\Baitap01\\Baitap01\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Baitap01\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T15:29:18.725Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
