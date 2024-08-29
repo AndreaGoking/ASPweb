@@ -5778,11 +5778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\source\\repos\\BaiTap02B\\BaiTap02B\\BaiTap02B.csproj",
+      "projectUniqueName": "D:\\LTwebASP\\ASPweb\\BaiTap02B\\BaiTap02B\\BaiTap02B.csproj",
       "projectName": "BaiTap02B",
-      "projectPath": "C:\\Users\\ACER\\source\\repos\\BaiTap02B\\BaiTap02B\\BaiTap02B.csproj",
+      "projectPath": "D:\\LTwebASP\\ASPweb\\BaiTap02B\\BaiTap02B\\BaiTap02B.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\source\\repos\\BaiTap02B\\BaiTap02B\\obj\\",
+      "outputPath": "D:\\LTwebASP\\ASPweb\\BaiTap02B\\BaiTap02B\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J+TXup+cUKg=",
+  "dgSpecHash": "v9ZeZ6sB4pE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\source\\repos\\BaiTap02B\\BaiTap02B\\BaiTap02B.csproj",
+  "projectFilePath": "D:\\LTwebASP\\ASPweb\\BaiTap02B\\BaiTap02B\\BaiTap02B.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
