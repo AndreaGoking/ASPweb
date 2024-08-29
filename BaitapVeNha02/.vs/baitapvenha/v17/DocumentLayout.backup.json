@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\LTwebASP\\ASPweb\\BaitapVeNha02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0F377F9-DDA3-4C0B-A544-F2554E082682}|baitapvenha\\baitapvenha.csproj|d:\\ltwebasp\\aspweb\\baitapvenha02\\baitapvenha\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E0F377F9-DDA3-4C0B-A544-F2554E082682}|baitapvenha\\baitapvenha.csproj|solutionrelative:baitapvenha\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\LTwebASP\\ASPweb\\BaitapVeNha02\\baitapvenha\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:baitapvenha\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "baitapvenha\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\LTwebASP\\ASPweb\\BaitapVeNha02\\baitapvenha\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "baitapvenha\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-28T06:51:00.242Z",
               "EditorCaption": ""
