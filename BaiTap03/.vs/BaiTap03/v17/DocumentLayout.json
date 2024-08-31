@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\LTwebASP\\ASPweb\\BaiTap03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B15015B2-FFF1-41C8-B11E-91092F122EF6}|BaiTap03\\BaiTap03.csproj|d:\\ltwebasp\\aspweb\\baitap03\\baitap03\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B15015B2-FFF1-41C8-B11E-91092F122EF6}|BaiTap03\\BaiTap03.csproj|solutionrelative:baitap03\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B15015B2-FFF1-41C8-B11E-91092F122EF6}|BaiTap03\\BaiTap03.csproj|d:\\ltwebasp\\aspweb\\baitap03\\baitap03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B15015B2-FFF1-41C8-B11E-91092F122EF6}|BaiTap03\\BaiTap03.csproj|solutionrelative:baitap03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B15015B2-FFF1-41C8-B11E-91092F122EF6}|BaiTap03\\BaiTap03.csproj|d:\\ltwebasp\\aspweb\\baitap03\\baitap03\\views\\nhom\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B15015B2-FFF1-41C8-B11E-91092F122EF6}|BaiTap03\\BaiTap03.csproj|solutionrelative:baitap03\\views\\nhom\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B15015B2-FFF1-41C8-B11E-91092F122EF6}|BaiTap03\\BaiTap03.csproj|d:\\ltwebasp\\aspweb\\baitap03\\baitap03\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B15015B2-FFF1-41C8-B11E-91092F122EF6}|BaiTap03\\BaiTap03.csproj|solutionrelative:baitap03\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B15015B2-FFF1-41C8-B11E-91092F122EF6}|BaiTap03\\BaiTap03.csproj|d:\\ltwebasp\\aspweb\\baitap03\\baitap03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\BaiTap03\\BaiTap03\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "BaiTap03\\wwwroot\\css\\site.css",
@@ -110,12 +110,11 @@
               "RelativeToolTip": "BaiTap03\\wwwroot\\css\\site.css",
               "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-31T07:32:51.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T07:32:51.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\BaiTap03\\BaiTap03\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTap03\\Views\\Home\\Index.cshtml",
@@ -152,16 +151,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\BaiTap03\\BaiTap03\\Views\\Nhom\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTap03\\Views\\Nhom\\Index.cshtml",
               "ToolTip": "D:\\LTwebASP\\ASPweb\\BaiTap03\\BaiTap03\\Views\\Nhom\\Index.cshtml",
               "RelativeToolTip": "BaiTap03\\Views\\Nhom\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-31T07:32:51.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T07:32:51.43Z"
             },
             {
               "$type": "Document",
