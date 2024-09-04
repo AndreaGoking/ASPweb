@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LTwebASP\\ASPweb\\Baitap05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|d:\\ltwebasp\\aspweb\\baitap05\\baitap05\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|solutionrelative:baitap05\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|d:\\ltwebasp\\aspweb\\baitap05\\baitap05\\models\\theloaiviewmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|solutionrelative:baitap05\\models\\theloaiviewmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|d:\\ltwebasp\\aspweb\\baitap05\\baitap05\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|solutionrelative:baitap05\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|d:\\ltwebasp\\aspweb\\baitap05\\baitap05\\views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|solutionrelative:baitap05\\views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|d:\\ltwebasp\\aspweb\\baitap05\\baitap05\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|solutionrelative:baitap05\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|d:\\ltwebasp\\aspweb\\baitap05\\baitap05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91FD052-086A-45C2-BD0B-EF2D585F126B}|Baitap05\\Baitap05.csproj|solutionrelative:baitap05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Baitap05\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Baitap05\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:53:09.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TheLoaiViewModal.cs",
+              "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Models\\TheLoaiViewModal.cs",
+              "RelativeDocumentMoniker": "Baitap05\\Models\\TheLoaiViewModal.cs",
+              "ToolTip": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Models\\TheLoaiViewModal.cs",
+              "RelativeToolTip": "Baitap05\\Models\\TheLoaiViewModal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:48:29.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Views\\TheLoai\\Index.cshtml",
+              "RelativeDocumentMoniker": "Baitap05\\Views\\TheLoai\\Index.cshtml",
+              "ToolTip": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Views\\TheLoai\\Index.cshtml",
+              "RelativeToolTip": "Baitap05\\Views\\TheLoai\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T07:40:31.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TheLoaiController.cs",
+              "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Controllers\\TheLoaiController.cs",
+              "RelativeDocumentMoniker": "Baitap05\\Controllers\\TheLoaiController.cs",
+              "ToolTip": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Controllers\\TheLoaiController.cs",
+              "RelativeToolTip": "Baitap05\\Controllers\\TheLoaiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:37:51.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Program.cs",
+              "RelativeDocumentMoniker": "Baitap05\\Program.cs",
+              "ToolTip": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\Program.cs",
+              "RelativeToolTip": "Baitap05\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:37:12.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\.gitignore",
+              "RelativeDocumentMoniker": "Baitap05\\.gitignore",
+              "ToolTip": "D:\\LTwebASP\\ASPweb\\Baitap05\\Baitap05\\.gitignore",
+              "RelativeToolTip": "Baitap05\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-04T07:36:19.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
