@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BTVN_slide20.props" />
+</Project>

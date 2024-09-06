@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "May-Tinh";
+}
+
+<h1>Kết quả phép tính</h1>
+
+@if (ViewBag.ThongBao != null)
+{
+    <p>@ViewBag.ThongBao</p>
+}
+else if (ViewBag.KetQua != null)
+{
+    <p>Kết quả: @ViewBag.KetQua</p>
+}
+else
+{
+    <p>Vui lòng nhập giá trị a, b và phép tính.</p>
+}
