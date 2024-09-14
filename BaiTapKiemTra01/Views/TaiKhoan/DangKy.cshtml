@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "DangKy";
+}
+
+<h1>Đăng Ký Tài Khoản</h1>
+@model TaiKhoanViewModel
+
+<<form asp-action="DangKy" method="post">
+    <!-- Tên tài khoản -->
+    <div class="form-group">
+        <label asp-for="Username"></label>
+        <input asp-for="Username" class="form-control" />
+    </div>
+
+    <!-- Mật khẩu -->
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" class="form-control" type="password" />
+    </div>
+
+    <!-- Họ tên -->
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" class="form-control" />
+    </div>
+
+    <!-- Tuổi -->
+    <div class="form-group">
+        <label asp-for="Age"></label>
+        <input asp-for="Age" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Đăng ký</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
