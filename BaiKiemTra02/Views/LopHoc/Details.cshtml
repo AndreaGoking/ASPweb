@@ -1,0 +1,17 @@
+﻿@model BaiKiemTra02.Models.LopHoc
+
+@{
+    ViewBag.Title = "Chi tiết Lớp Học";
+}
+
+<h2>Chi tiết Lớp Học</h2>
+
+<div>
+    <h4>Lớp Học: @Model.TenLopHoc</h4>
+    <p>Năm Nhập Học: @Model.NamNhapHoc</p>
+    <p>Năm Ra Trường: @Model.NamRaTruong</p>
+    <p>Số Lượng Sinh Viên: @Model.SoLuongSinhVien</p>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Trở về</a>
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Chỉnh sửa</a>

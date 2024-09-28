@@ -1,0 +1,39 @@
+﻿@model IEnumerable<BaiKiemTra02.Models.LopHoc>
+
+@{
+    ViewBag.Title = "Danh sách Lớp Học";
+}
+
+<h2>Danh sách Lớp Học</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm Lớp Học Mới</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên Lớp Học</th>
+            <th>Năm Nhập Học</th>
+            <th>Năm Ra Trường</th>
+            <th>Số Lượng Sinh Viên</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TenLopHoc</td>
+                <td>@item.NamNhapHoc</td>
+                <td>@item.NamRaTruong</td>
+                <td>@item.SoLuongSinhVien</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Chi tiết</a> |
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Chỉnh sửa</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

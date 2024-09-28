@@ -1,0 +1,21 @@
+﻿@model BaiKiemTra02.Models.LopHoc
+
+@{
+    ViewBag.Title = "Xóa Lớp Học";
+}
+
+<h2>Xóa Lớp Học</h2>
+
+<h3>Bạn có chắc chắn muốn xóa lớp học này?</h3>
+<div>
+    <h4>Lớp Học: @Model.TenLopHoc</h4>
+    <p>Năm Nhập Học: @Model.NamNhapHoc</p>
+    <p>Năm Ra Trường: @Model.NamRaTruong</p>
+    <p>Số Lượng Sinh Viên: @Model.SoLuongSinhVien</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Trở về</a>
+</form>

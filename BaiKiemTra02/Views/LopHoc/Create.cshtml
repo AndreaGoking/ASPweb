@@ -1,0 +1,32 @@
+﻿@model BaiKiemTra02.Models.LopHoc
+
+@{
+    ViewBag.Title = "Thêm Lớp Học";
+}
+
+<h2>Thêm Lớp Học</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="TenLopHoc">Tên Lớp Học</label>
+        <input type="text" asp-for="TenLopHoc" class="form-control" />
+        <span asp-validation-for="TenLopHoc" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="NamNhapHoc">Năm Nhập Học</label>
+        <input type="number" asp-for="NamNhapHoc" class="form-control" />
+        <span asp-validation-for="NamNhapHoc" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="NamRaTruong">Năm Ra Trường</label>
+        <input type="number" asp-for="NamRaTruong" class="form-control" />
+        <span asp-validation-for="NamRaTruong" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="SoLuongSinhVien">Số Lượng Sinh Viên</label>
+        <input type="number" asp-for="SoLuongSinhVien" class="form-control" />
+        <span asp-validation-for="SoLuongSinhVien" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary">Trở về</a>
+</form>
