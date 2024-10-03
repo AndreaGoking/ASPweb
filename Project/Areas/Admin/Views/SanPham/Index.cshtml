@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@model IEnumerable<SanPham>
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Mô tả</th>
+                <th>Gía tiền</th>
+                <th>Hình ảnh</th>
+                <th>Tên thể loại</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in @Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>@item.Price</td>
+                    <td><img src="@item.ImageUrl" width="200px" /></td>
+                    <td>@item.TheLoai.Name</td>
+                    <td>
+                        <a asp-action="Upsert" asp-route-id="@item.Id">Edit</a> |
+                        <a href="#">Details</a> |
+                        <a href="#" onclick="confirmDelete(@item.Id, $(this))">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="SanPham" asp-action="Upsert" class="btn btn-primary">Thêm mới</a>
+</div>
+<script>
+    function confirmDelete(id, row) {
+        if (confirm("Bạn có chắc chắn muốn xóa sản phẩm có id là" + id + "?")) {
+            xoa(id, $(row))
+        }
+    }
+    function xoa(idx, row) {
+        $.ajax({
+            url: `SanPham/Delete`,
+            data: { id: idx },
+            type: "POST",
+            success: function (data) {
+                row.closest("tr").remove();
+            }
+        })
+    }
+</script>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
