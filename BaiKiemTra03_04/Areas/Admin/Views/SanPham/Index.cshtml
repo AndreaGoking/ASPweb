@@ -1,0 +1,33 @@
+﻿@model IEnumerable<YourProjectName.Models.Order>
+
+<h2>Danh sách Đơn Hàng</h2>
+<a asp-action="Create">Tạo Đơn Hàng</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã Đơn Hàng</th>
+            <th>Ngày Đặt Hàng</th>
+            <th>Tổng Giá Trị</th>
+            <th>Nhà Cung Cấp</th>
+            <th>Trạng Thái</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.OrderId</td>
+                <td>@item.OrderDate.ToString("dd/MM/yyyy")</td>
+                <td>@item.TotalAmount</td>
+                <td>@item.Supplier.SupplierName</td>
+                <td>@item.OrderStatus</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.OrderId">Sửa</a> |
+                    <a asp-action="Delete" asp-route-id="@item.OrderId">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

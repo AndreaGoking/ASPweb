@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+@model SanPham
+
+<div class="container">
+    <form method="post" asp-action="Upsert">
+        <div class="form-group">
+            <label asp-for="Name">Tên sản phẩm</label>
+            <input asp-for="Name" type="text" class="form-control">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description">Mô tả</label>
+            <input asp-for="Description" type="text" class="form-control">
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price">Gía bán</label>
+            <input asp-for="Price" type="text" class="form-control">
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ImageUrl">Hình ảnh</label>
+            <input asp-for="ImageUrl" type="text" class="form-control">
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <lable asp-for="TheLoaild">Thể loại</lable>
+            <select asp-for="TheLoaild" asp-items="@ViewBag.DSTheLoai" class="form-control">
+                <option disabled> Chọn thể loại</option>
+            </select>
+            <span asp-validation-for="TheLoaild" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">@(Model.Id == 0 ? "Tạo mới" : "Cập nhật")</button>
+        <a asp-action="Index" class="btn btn-secondary">Huy</a>
+    </form>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
