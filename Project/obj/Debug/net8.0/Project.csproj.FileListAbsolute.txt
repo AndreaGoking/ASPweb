@@ -106,8 +106,6 @@ D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\refs\Microsoft.Extensions.Configurat
 D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
 D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
 D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
 D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
@@ -589,3 +587,5 @@ D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dl
 D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\LTwebASP\ASPweb\Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
