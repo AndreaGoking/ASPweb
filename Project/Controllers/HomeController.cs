@@ -43,5 +43,11 @@ namespace Project.Controllers
             }
             return View(sanpham);
         }
+        [HttpGet]
+        public IActionResult FilterByTheLoai(int id)
+        {
+            IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").Where(sp => sp.TheLoai.Id == id).ToList();
+            return View("Index", sanpham);
+        }
     }
 }

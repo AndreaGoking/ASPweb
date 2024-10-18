@@ -5,40 +5,196 @@
       "PackagePath": "staticwebassets\\Project.bundle.scp.css"
     },
     {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\bootstrap-icons.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
-    },
-    {
       "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
     },
     {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\slick.css",
-      "PackagePath": "staticwebassets\\css\\slick.css"
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
     },
     {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\tooplate-little-fashion.css",
-      "PackagePath": "staticwebassets\\css\\tooplate-little-fashion.css"
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\slick-theme.min.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.min.css"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\slick.min.css",
+      "PackagePath": "staticwebassets\\css\\slick.min.css"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\templatemo.css",
+      "PackagePath": "staticwebassets\\css\\templatemo.css"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\css\\templatemo.min.css",
+      "PackagePath": "staticwebassets\\css\\templatemo.min.css"
     },
     {
       "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\fonts\\bootstrap-icons.woff",
-      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff"
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\about-hero.svg",
+      "PackagePath": "staticwebassets\\img\\about-hero.svg"
     },
     {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\fonts\\bootstrap-icons.woff2",
-      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff2"
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\img\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\Headroom.js",
-      "PackagePath": "staticwebassets\\js\\Headroom.js"
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\banner_img_01.jpg",
+      "PackagePath": "staticwebassets\\img\\banner_img_01.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\banner_img_02.jpg",
+      "PackagePath": "staticwebassets\\img\\banner_img_02.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\banner_img_03.jpg",
+      "PackagePath": "staticwebassets\\img\\banner_img_03.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\brand_01.png",
+      "PackagePath": "staticwebassets\\img\\brand_01.png"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\brand_02.png",
+      "PackagePath": "staticwebassets\\img\\brand_02.png"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\brand_03.png",
+      "PackagePath": "staticwebassets\\img\\brand_03.png"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\brand_04.png",
+      "PackagePath": "staticwebassets\\img\\brand_04.png"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\category_img_01.jpg",
+      "PackagePath": "staticwebassets\\img\\category_img_01.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\category_img_02.jpg",
+      "PackagePath": "staticwebassets\\img\\category_img_02.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\category_img_03.jpg",
+      "PackagePath": "staticwebassets\\img\\category_img_03.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\feature_prod_01.jpg",
+      "PackagePath": "staticwebassets\\img\\feature_prod_01.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\feature_prod_02.jpg",
+      "PackagePath": "staticwebassets\\img\\feature_prod_02.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\feature_prod_03.jpg",
+      "PackagePath": "staticwebassets\\img\\feature_prod_03.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_01.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_01.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_02.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_02.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_03.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_03.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_04.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_04.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_05.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_05.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_06.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_06.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_07.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_07.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_08.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_08.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_09.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_09.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\product_single_10.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_10.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_01.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_01.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_02.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_02.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_03.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_03.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_04.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_04.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_05.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_05.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_06.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_06.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_07.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_07.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_08.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_08.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_09.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_09.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_10.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_10.jpg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\img\\shop_11.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_11.jpg"
     },
     {
       "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\bootstrap.bundle.min.js",
@@ -49,20 +205,24 @@
       "PackagePath": "staticwebassets\\js\\custom.js"
     },
     {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\jQuery.headroom.js",
-      "PackagePath": "staticwebassets\\js\\jQuery.headroom.js"
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\jquery.min.js",
-      "PackagePath": "staticwebassets\\js\\jquery.min.js"
-    },
-    {
-      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-migrate-1.2.1.min.js"
     },
     {
       "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\slick.min.js",
       "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\templatemo.js",
+      "PackagePath": "staticwebassets\\js\\templatemo.js"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\js\\templatemo.min.js",
+      "PackagePath": "staticwebassets\\js\\templatemo.min.js"
     },
     {
       "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -291,6 +451,82 @@
     {
       "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\slick.eot",
+      "PackagePath": "staticwebassets\\webfonts\\slick.eot"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\slick.svg",
+      "PackagePath": "staticwebassets\\webfonts\\slick.svg"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\slick.ttf"
+    },
+    {
+      "Id": "D:\\LTwebASP\\ASPweb\\Project\\wwwroot\\webfonts\\slick.woff",
+      "PackagePath": "staticwebassets\\webfonts\\slick.woff"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Project.Microsoft.AspNetCore.StaticWebAssets.props",
