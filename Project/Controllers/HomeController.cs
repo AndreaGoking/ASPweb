@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project.Data;
 using Project.Models;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace Project.Controllers
 {
@@ -34,14 +36,29 @@ namespace Project.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
         [HttpGet]
-        public IActionResult Details(int id)
+        public IActionResult Details(int sanphamid)
         {
-            var sanpham = _db.SanPham.FirstOrDefault(sp => sp.Id == id);
-            if (sanpham == null)
+            // T?o gi? hàng ? trang Details ð? x? l? ch?c nãng thêm vào gi? sau này
+            GioHang giohang = new GioHang()
             {
-                return NotFound();
-            }
-            return View(sanpham);
+                SanPhamId = sanphamid,
+                SanPham = _db.SanPham.Include("TheLoai").FirstOrDefault(sp => sp.Id == sanphamid),
+                Quantity = 1
+            };
+            return View(giohang);
+        }
+        [HttpPost]
+        [Authorize] // Yêu c?u ðãng nh?p
+        public IActionResult Details(GioHang giohang)
+        {
+            // L?y thông tin tài kho?n
+            var identity = (ClaimsIdentity)User.Identity;
+            var claim = identity.FindFirst(ClaimTypes.NameIdentifier);
+            giohang.ApplicationUserId = claim.Value;
+            // Thêm s?n ph?m vào gi? hàng
+            _db.GioHang.Add(giohang);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
         [HttpGet]
         public IActionResult FilterByTheLoai(int id)
