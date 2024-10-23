@@ -55,6 +55,20 @@ namespace Project.Controllers
             var identity = (ClaimsIdentity)User.Identity;
             var claim = identity.FindFirst(ClaimTypes.NameIdentifier);
             giohang.ApplicationUserId = claim.Value;
+
+            // Ki?m tra s?n ph?m ð? có trong gi? hàng chýa
+            var giohangdb = _db.GioHang.FirstOrDefault(sp => sp.SanPhamId == giohang.SanPhamId
+            && sp.ApplicationUserId == giohang.ApplicationUserId);
+            if (giohangdb == null) // N?u không có s?n ph?m trong gi? hàng
+            {
+                _db.GioHang.Add(giohang); // Thêm s?n ph?m vào gi? hàng
+            }
+            else // N?u không có s?n ph?m trong gi? hàng
+            {
+
+                giohangdb.Quantity += giohang.Quantity; // C?p nh?t s? lý?ng s?n ph?m
+            }
+
             // Thêm s?n ph?m vào gi? hàng
             _db.GioHang.Add(giohang);
             _db.SaveChanges();

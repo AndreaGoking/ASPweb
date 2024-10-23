@@ -1,4 +1,4 @@
-﻿@model IEnumerable<GioHang>
+﻿@model GioHangViewModel
 
     <style>
 
@@ -29,23 +29,26 @@
                             </tr>
                         </thead>
                     <tbody>
-                        @foreach (var item in Model)
+                        @foreach (var item in Model.DsGioHang)
                         {
                             <tr data-price="500000">
                                 <td>1</td>
                                 <td>@item.SanPham.Name</td>
                                 <td><img src="@item.SanPham.ImageUrl" alt="Sản phẩm A" class="img-fluid" width="100"></td>
-                                <td>500,000đ</td>
+                                <td>@item.SanPham.Price.ToString("N0")</td>
                                 <td>
                                     <div class="d-flex justify-content-center align-items-center">
                                         <button class="btn btn-sm btn-outline-secondary minus">-</button>
                                         <input asp-for="@item.Quantity" type="text" class="form-control text-center quantity mx-2" readonly>
-                                        <button class="btn btn-sm btn-outline-secondary plus">+</button>
+                                        <a asp-action="Tang" asp-route-giohangId="@item.Id" class="btn btn-sm btn-outline-secondary plus">+</a>
                                     </div>
                                 </td>
-                                <td class="item-total">@((item.Quantity * item.SanPham.Price).ToString("N0"))</td>
+                                <td class="item-total">@item.ProductPrice.ToString("N0")</td>
                                 <td>
                                     <button class="btn btn-sm btn-danger remove">Xóa</button>
+                                </td>
+                                <td>
+                                    <a asp-action="Xoa" asp-route-giohangId="@item. Id" class="btn btn-sm btn-danger remove">Xoa</a>
                                 </td>
                             </tr>
                         }
