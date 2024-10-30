@@ -6,6 +6,8 @@ namespace Project.Models
 {
     public class SanPham
     {
+        internal int price;
+
         [Key]
         public int Id { get; set; }
         [Required]

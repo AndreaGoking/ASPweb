@@ -15,5 +15,7 @@ namespace Project.Data
         public DbSet<SanPham> SanPham { get; set; }
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
         public DbSet<GioHang> GioHang { get; set; }
+        public DbSet<HoaDon> HoaDon { get; set; }
+        public DbSet<ChiTietHoaDon> ChiTietHoaDon { get; set; }
     }
 }

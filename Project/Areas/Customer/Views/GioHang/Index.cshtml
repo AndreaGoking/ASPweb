@@ -38,17 +38,20 @@
                                 <td>@item.SanPham.Price.ToString("N0")</td>
                                 <td>
                                     <div class="d-flex justify-content-center align-items-center">
-                                        <button class="btn btn-sm btn-outline-secondary minus">-</button>
-                                        <input asp-for="@item.Quantity" type="text" class="form-control text-center quantity mx-2" readonly>
+                                        <a asp-action="Giam" asp-route-giohangId="@item.Id" class="btn btn-sm btn-outline-secondary plus">-</a>
+                                        <input value="@item.Quantity" type="text" class="form-control text-center quantity mx-2" readonly>
                                         <a asp-action="Tang" asp-route-giohangId="@item.Id" class="btn btn-sm btn-outline-secondary plus">+</a>
                                     </div>
                                 </td>
-                                <td class="item-total">@item.ProductPrice.ToString("N0")</td>
+                                <td class="item-total">
+                                    @(string.Format("{0:N0}", item.SanPham.Price * item.Quantity))
+                                
                                 <td>
-                                    <button class="btn btn-sm btn-danger remove">Xóa</button>
-                                </td>
-                                <td>
-                                    <a asp-action="Xoa" asp-route-giohangId="@item. Id" class="btn btn-sm btn-danger remove">Xoa</a>
+                                    <a asp-action="Xoa"
+                                       asp-route-giohangId="@item.Id"
+                                       class="btn btn-sm btn-danger remove">
+                                        Xóa
+                                    </a>
                                 </td>
                             </tr>
                         }
@@ -64,7 +67,7 @@
                         <h5 class="card-title">Thông tin thanh toán</h5>
 
                         <!-- Tổng cộng -->
-                        <p><strong>Tổng cộng:</strong> <span id="cart-total">1,100,000đ</span></p>
+                    <p><strong>Tổng cộng:</strong> <span id="cart-total" class="text-danger"><b>@(string.Format("{0:N0}", Model.HoaDon.Total)) vnd></b></span></p>
 
                         <!-- Phương thức thanh toán -->
                         <h6>Phương thức thanh toán</h6>
@@ -97,7 +100,7 @@
                         </div>
 
                         <!-- Nút đặt hàng -->
-                        <button class="btn btn-success mt-3 w-100">Đặt hàng</button>
+                        <a class="btn btn-success mt-3 w-100" asp-action="Thanh Toan">Thanh Toán</a>
                     </div>
                 </div>
             </div>
